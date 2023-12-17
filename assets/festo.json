@@ -3,26 +3,31 @@
         {
             "id": "?B1",
             "title": "?B1",
+            "name": "皮带左侧光电",
             "group": 1
         },
         {
             "id": "?B2",
             "title": "?B2",
+            "name": "皮带中间光电",
             "group": 1
         },
         {
             "id": "?B3",
             "title": "?B3",
+            "name": "皮带右侧光电",
             "group": 1
         },
         {
             "id": "?B4",
             "title": "?B4",
+            "name": "气缸缩回磁开",
             "group": 1
         },
         {
             "id": "?B5",
             "title": "?B5",
+            "name": "料仓光电",
             "group": 1
         },
         {
@@ -63,31 +68,30 @@
         {
             "id": "FB1",
             "title": "FB1",
-            "group": 3
+            "group": 6
         },
         {
             "id": "?B6",
             "title": "?B6",
+            "name": "复位按钮",
             "group": 1
         },
         {
             "id": "?B7",
             "title": "?B7",
+            "name": "开始按钮",
             "group": 1
         },
         {
             "id": "?B8",
             "title": "?B8",
+            "name": "下一站空闲",
             "group": 1
         },
         {
             "id": "?B9",
             "title": "?B9",
-            "group": 1
-        },
-        {
-            "id": "?B10",
-            "title": "?B10",
+            "name": "钥匙",
             "group": 1
         },
         {
@@ -98,31 +102,37 @@
         {
             "id": "!B1",
             "title": "!B1",
+            "name": "复位灯",
             "group": 2
         },
         {
             "id": "!B2",
             "title": "!B2",
+            "name": "皮带正转",
             "group": 2
         },
         {
             "id": "!B3",
             "title": "!B3",
+            "name": "皮带反转",
             "group": 2
         },
         {
             "id": "!B4",
             "title": "!B4",
+            "name": "阻挡臂伸出",
             "group": 2
         },
         {
             "id": "!B5",
             "title": "!B5",
+            "name": "气缸推出",
             "group": 2
         },
         {
             "id": "!B6",
             "title": "!B6",
+            "name": "停止按钮存储位",
             "group": 2
         },
         {
@@ -136,18 +146,21 @@
             "group": 4
         },
         {
-            "id": "?B11",
-            "title": "?B11",
+            "id": "?B10",
+            "title": "?B10",
+            "name": "停止按钮",
             "group": 1
         },
         {
             "id": "!B7",
             "title": "!B7",
+            "name": "Q1灯-自动模式",
             "group": 2
         },
         {
             "id": "!B8",
             "title": "!B8",
+            "name": "Q2灯-料仓缺料",
             "group": 2
         },
         {
@@ -194,155 +207,188 @@
     "links": [
         {
             "source": "?B1",
-            "target": "NOT1"
+            "target": "NOT1",
+            "linkName": "link1"
         },
         {
             "source": "?B2",
-            "target": "NOT2"
+            "target": "NOT2",
+            "linkName": "link2"
         },
         {
             "source": "?B5",
-            "target": "NOT3"
+            "target": "NOT3",
+            "linkName": "link3"
         },
         {
             "source": "NOT1",
-            "target": "AND1"
+            "target": "AND1",
+            "linkName": "link4"
         },
         {
             "source": "NOT2",
-            "target": "AND1"
+            "target": "AND1",
+            "linkName": "link5"
         },
         {
             "source": "?B3",
-            "target": "AND1"
+            "target": "AND1",
+            "linkName": "link6"
         },
         {
             "source": "?B4",
-            "target": "AND1"
+            "target": "AND1",
+            "linkName": "link7"
         },
         {
             "source": "NOT3",
-            "target": "AND1"
+            "target": "AND1",
+            "linkName": "link8"
         },
         {
             "source": "AND1",
-            "target": "IF1"
+            "target": "IF1",
+            "linkName": "link9"
         },
         {
             "source": "IF1",
-            "target": "EMIT1"
+            "target": "EMIT1",
+            "linkName": "link10"
         },
         {
             "source": "EMIT1",
-            "target": "mB1"
+            "target": "mB1",
+            "linkName": "link11"
         },
         {
             "source": "mB1",
-            "target": "FB1"
+            "target": "FB1",
+            "linkName": "link12"
         },
         {
             "source": "FB1",
-            "target": "!B1"
+            "target": "!B1",
+            "linkName": "link13"
         },
         {
             "source": "?B6",
-            "target": "FB1"
+            "target": "FB1",
+            "linkName": "link14"
         },
         {
             "source": "?B7",
-            "target": "FB1"
+            "target": "FB1",
+            "linkName": "link15"
         },
         {
             "source": "?B8",
-            "target": "FB1"
+            "target": "FB1",
+            "linkName": "link16"
         },
         {
             "source": "?B9",
-            "target": "FB1"
-        },
-        {
-            "source": "?B10",
-            "target": "FB1"
+            "target": "FB1",
+            "linkName": "link18"
         },
         {
             "source": "FB1",
-            "target": "!B2"
+            "target": "!B2",
+            "linkName": "link19"
         },
         {
             "source": "FB1",
-            "target": "!B3"
+            "target": "!B3",
+            "linkName": "link20"
         },
         {
             "source": "FB1",
-            "target": "!B4"
+            "target": "!B4",
+            "linkName": "link21"
         },
         {
             "source": "FB1",
-            "target": "!B5"
+            "target": "!B5",
+            "linkName": "link22"
         },
         {
             "source": "FB1",
-            "target": "!B6"
+            "target": "!B6",
+            "linkName": "link23"
         },
         {
             "source": "mB2",
-            "target": "FB1"
+            "target": "FB1",
+            "linkName": "link24"
         },
         {
             "source": "FB1",
-            "target": "mB2"
+            "target": "mB2",
+            "linkName": "link25"
         },
         {
             "source": "FB1",
-            "target": "mB3"
+            "target": "mB3",
+            "linkName": "link26"
         },
         {
             "source": "FB1",
-            "target": "mB4"
-        },
-        {
-            "source": "?B11",
-            "target": "NOT4"
-        },
-        {
-            "source": "NOT4",
-            "target": "IF2"
-        },
-        {
-            "source": "IF2",
-            "target": "LATCH1"
-        },
-        {
-            "source": "LATCH1",
-            "target": "mB3"
+            "target": "mB4",
+            "linkName": "link27"
         },
         {
             "source": "?B10",
-            "target": "NOT5"
+            "target": "NOT4",
+            "linkName": "link28"
+        },
+        {
+            "source": "NOT4",
+            "target": "IF2",
+            "linkName": "link29"
+        },
+        {
+            "source": "IF2",
+            "target": "LATCH1",
+            "linkName": "link30"
+        },
+        {
+            "source": "LATCH1",
+            "target": "mB3",
+            "linkName": "link31"
+        },
+        {
+            "source": "?B9",
+            "target": "NOT5",
+            "linkName": "link32"
         },
         {
             "source": "NOT5",
-            "target": "IF3"
+            "target": "IF3",
+            "linkName": "link33"
         },
         {
             "source": "IF3",
-            "target": "EMIT2"
+            "target": "EMIT2",
+            "linkName": "link34"
         },
         {
             "source": "EMIT2",
-            "target": "!B7"
+            "target": "!B7",
+            "linkName": "link35"
         },
         {
             "source": "?B5",
-            "target": "IF4"
+            "target": "IF4",
+            "linkName": "link36"
         },
         {
             "source": "IF4",
-            "target": "EMIT3"
+            "target": "EMIT3",
+            "linkName": "link37"
         },
         {
             "source": "EMIT3",
-            "target": "!B8"
+            "target": "!B8",
+            "linkName": "link38"
         }
     ]
 }

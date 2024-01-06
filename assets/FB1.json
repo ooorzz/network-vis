@@ -1,6 +1,205 @@
 {
     "nodes": [
         {
+            "id": "?B1",
+            "title": "?B1",
+            "name": "皮带左侧光电",
+            "group": 1
+        },
+        {
+            "id": "?B2",
+            "title": "?B2",
+            "name": "皮带中间光电",
+            "group": 1
+        },
+        {
+            "id": "?B3",
+            "title": "?B3",
+            "name": "皮带右侧光电",
+            "group": 1
+        },
+        {
+            "id": "?B4",
+            "title": "?B4",
+            "name": "气缸缩回磁开",
+            "group": 1
+        },
+        {
+            "id": "?B5",
+            "title": "?B5",
+            "name": "料仓光电",
+            "group": 1
+        },
+        {
+            "id": "NOT1",
+            "title": "NOT",
+            "group": 3
+        },
+        {
+            "id": "NOT2",
+            "title": "NOT",
+            "group": 3
+        },
+        {
+            "id": "NOT3",
+            "title": "NOT",
+            "group": 3
+        },
+        {
+            "id": "AND1",
+            "title": "AND",
+            "group": 3
+        },
+        {
+            "id": "IF1",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "EMIT1",
+            "title": "EMIT",
+            "group": 3
+        },
+        {
+            "id": "mB1",
+            "title": "△B1",
+            "group": 4
+        },
+
+        {
+            "id": "?B6",
+            "title": "?B6",
+            "name": "复位按钮",
+            "group": 1
+        },
+        {
+            "id": "?B7",
+            "title": "?B7",
+            "name": "开始按钮",
+            "group": 1
+        },
+        {
+            "id": "?B8",
+            "title": "?B8",
+            "name": "下一站空闲",
+            "group": 1
+        },
+        {
+            "id": "?B9",
+            "title": "?B9",
+            "name": "钥匙",
+            "group": 1
+        },
+        {
+            "id": "mB2",
+            "title": "△B2",
+            "group": 4
+        },
+        {
+            "id": "!B1",
+            "title": "!B1",
+            "name": "复位灯",
+            "group": 2
+        },
+        {
+            "id": "!B2",
+            "title": "!B2",
+            "name": "皮带正转",
+            "group": 2
+        },
+        {
+            "id": "!B3",
+            "title": "!B3",
+            "name": "皮带反转",
+            "group": 2
+        },
+        {
+            "id": "!B4",
+            "title": "!B4",
+            "name": "阻挡臂伸出",
+            "group": 2
+        },
+        {
+            "id": "!B5",
+            "title": "!B5",
+            "name": "气缸推出",
+            "group": 2
+        },
+        {
+            "id": "!B6",
+            "title": "!B6",
+            "name": "停止按钮存储位",
+            "group": 2
+        },
+        {
+            "id": "mB3",
+            "title": "△B3",
+            "group": 4
+        },
+        {
+            "id": "mB4",
+            "title": "△B4",
+            "group": 4
+        },
+        {
+            "id": "?B10",
+            "title": "?B10",
+            "name": "停止按钮",
+            "group": 1
+        },
+        {
+            "id": "!B7",
+            "title": "!B7",
+            "name": "Q1灯-自动模式",
+            "group": 2
+        },
+        {
+            "id": "!B8",
+            "title": "!B8",
+            "name": "Q2灯-料仓缺料",
+            "group": 2
+        },
+        {
+            "id": "NOT4",
+            "title": "NOT",
+            "group": 3
+        },
+        {
+            "id": "NOT5",
+            "title": "NOT",
+            "group": 3
+        },
+        {
+            "id": "IF2",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "IF3",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "IF4",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "LATCH1",
+            "title": "LATCH",
+            "group": 3
+        },
+        {
+            "id": "EMIT2",
+            "title": "EMIT",
+            "group": 3
+        },
+        {
+            "id": "EMIT3",
+            "title": "EMIT",
+            "group": 3
+        },
+        {
             "id": "IF5",
             "title": "IF",
             "group": 3
@@ -184,243 +383,413 @@
     "links": [
         {
             "source": "?B1",
-            "target": "IF5"
-        },
-        {
-            "source": "IF5",
-            "target": "RST1"
-        },
-        {
-            "source": "RST1",
-            "target": "!B2"
-        },
-        {
-            "source": "RST1",
-            "target": "!B3"
-        },
-        {
-            "source": "RST1",
-            "target": "!B4"
-        },
-        {
-            "source": "RST1",
-            "target": "!B5"
-        },
-        {
-            "source": "RST1",
-            "target": "mB2"
-        },
-        {
-            "source": "mB1",
-            "target": "IF6"
-        },
-        {
-            "source": "IF6",
-            "target": "RST2"
-        },
-        {
-            "source": "RST2",
-            "target": "!B1"
-        },
-        {
-            "source": "IF6",
-            "target": "EMIT4"
-        },
-        {
-            "source": "EMIT4",
-            "target": "!B6"
+            "target": "NOT1",
+            "linkName": "link1"
         },
         {
             "source": "?B2",
-            "target": "IF7"
+            "target": "NOT2",
+            "linkName": "link2"
         },
         {
-            "source": "IF7",
-            "target": "RST3"
+            "source": "?B5",
+            "target": "NOT3",
+            "linkName": "link3"
         },
         {
-            "source": "RST3",
-            "target": "!B6"
+            "source": "NOT1",
+            "target": "AND1",
+            "linkName": "link4"
         },
         {
-            "source": "?B7",
-            "target": "NOT6"
+            "source": "NOT2",
+            "target": "AND1",
+            "linkName": "link5"
         },
         {
-            "source": "NOT6",
-            "target": "IF8"
-        },
-        {
-            "source": "IF8",
-            "target": "N1"
-        },
-        {
-            "source": "N1",
-            "target": "!B5"
-        },
-        {
-            "source": "?B7",
-            "target": "IF9"
-        },
-        {
-            "source": "IF9",
-            "target": "EMIT5"
-        },
-        {
-            "source": "EMIT5",
-            "target": "!B1"
+            "source": "?B3",
+            "target": "AND1",
+            "linkName": "link6"
         },
         {
             "source": "?B4",
-            "target": "IF10"
+            "target": "AND1",
+            "linkName": "link7"
+        },
+        {
+            "source": "NOT3",
+            "target": "AND1",
+            "linkName": "link8"
+        },
+        {
+            "source": "AND1",
+            "target": "IF1",
+            "linkName": "link9"
+        },
+        {
+            "source": "IF1",
+            "target": "EMIT1",
+            "linkName": "link10"
+        },
+        {
+            "source": "EMIT1",
+            "target": "mB1",
+            "linkName": "link11"
+        },
+        {
+            "source": "?B10",
+            "target": "NOT4",
+            "linkName": "link28"
+        },
+        {
+            "source": "NOT4",
+            "target": "IF2",
+            "linkName": "link29"
+        },
+        {
+            "source": "IF2",
+            "target": "LATCH1",
+            "linkName": "link30"
+        },
+        {
+            "source": "LATCH1",
+            "target": "mB3",
+            "linkName": "link31"
+        },
+        {
+            "source": "?B9",
+            "target": "NOT5",
+            "linkName": "link32"
+        },
+        {
+            "source": "NOT5",
+            "target": "IF3",
+            "linkName": "link33"
+        },
+        {
+            "source": "IF3",
+            "target": "EMIT2",
+            "linkName": "link34"
+        },
+        {
+            "source": "EMIT2",
+            "target": "!B7",
+            "linkName": "link35"
+        },
+        {
+            "source": "?B5",
+            "target": "IF4",
+            "linkName": "link36"
+        },
+        {
+            "source": "IF4",
+            "target": "EMIT3",
+            "linkName": "link37"
+        },
+        {
+            "source": "EMIT3",
+            "target": "!B8",
+            "linkName": "link38"
+        },
+        {
+            "source": "?B1",
+            "target": "IF5",
+            "linkName": "link39"
+        },
+        {
+            "source": "IF5",
+            "target": "RST1",
+            "linkName": "link40"
+        },
+        {
+            "source": "RST1",
+            "target": "!B2",
+            "linkName": "link41"
+        },
+        {
+            "source": "RST1",
+            "target": "!B3",
+            "linkName": "link42"
+        },
+        {
+            "source": "RST1",
+            "target": "!B4",
+            "linkName": "link43"
+        },
+        {
+            "source": "RST1",
+            "target": "!B5",
+            "linkName": "link44"
+        },
+        {
+            "source": "RST1",
+            "target": "mB2",
+            "linkName": "link45"
+        },
+        {
+            "source": "mB1",
+            "target": "IF6",
+            "linkName": "link46"
+        },
+        {
+            "source": "IF6",
+            "target": "RST2",
+            "linkName": "link47"
+        },
+        {
+            "source": "RST2",
+            "target": "!B1",
+            "linkName": "link48"
+        },
+        {
+            "source": "IF6",
+            "target": "EMIT4",
+            "linkName": "link49"
+        },
+        {
+            "source": "EMIT4",
+            "target": "!B6",
+            "linkName": "link50"
+        },
+        {
+            "source": "?B2",
+            "target": "IF7",
+            "linkName": "link51"
+        },
+        {
+            "source": "IF7",
+            "target": "RST3",
+            "linkName": "link52"
+        },
+        {
+            "source": "RST3",
+            "target": "!B6",
+            "linkName": "link53"
+        },
+        {
+            "source": "?B7",
+            "target": "NOT6",
+            "linkName": "link54"
+        },
+        {
+            "source": "NOT6",
+            "target": "IF8",
+            "linkName": "link55"
+        },
+        {
+            "source": "IF8",
+            "target": "N1",
+            "linkName": "link56"
+        },
+        {
+            "source": "N1",
+            "target": "!B5",
+            "linkName": "link57"
+        },
+        {
+            "source": "?B7",
+            "target": "IF9",
+            "linkName": "link58"
+        },
+        {
+            "source": "IF9",
+            "target": "EMIT5",
+            "linkName": "link59"
+        },
+        {
+            "source": "EMIT5",
+            "target": "!B1",
+            "linkName": "link60"
+        },
+        {
+            "source": "?B4",
+            "target": "IF10",
+            "linkName": "link61"
         },
         {
             "source": "IF10",
-            "target": "EMIT6"
+            "target": "EMIT6",
+            "linkName": "link62"
         },
         {
             "source": "EMIT6",
-            "target": "!B2"
+            "target": "!B2",
+            "linkName": "link63"
         },
         {
             "source": "?B7",
-            "target": "NOT7"
+            "target": "NOT7",
+            "linkName": "link64"
         },
         {
             "source": "NOT7",
-            "target": "AND2"
+            "target": "AND2",
+            "linkName": "link65"
         },
         {
             "source": "?B8",
-            "target": "AND2"
+            "target": "AND2",
+            "linkName": "link66"
         },
         {
             "source": "AND2",
-            "target": "IF11"
+            "target": "IF11",
+            "linkName": "link67"
         },
         {
             "source": "IF11",
-            "target": "TP1"
+            "target": "TP1",
+            "linkName": "link68"
         },
         {
             "source": "3s1",
-            "target": "TP1"
+            "target": "TP1",
+            "linkName": "link69"
         },
         {
             "source": "TP1",
-            "target": "mB4"
+            "target": "mB4",
+            "linkName": "link70"
         },
         {
             "source": "?B8",
-            "target": "NOT8"
+            "target": "NOT8",
+            "linkName": "link71"
         },
         {
             "source": "NOT7",
-            "target": "AND3"
+            "target": "AND3",
+            "linkName": "link72"
         },
         {
             "source": "NOT8",
-            "target": "AND3"
+            "target": "AND3",
+            "linkName": "link73"
         },
         {
             "source": "AND3",
-            "target": "IF12"
+            "target": "IF12",
+            "linkName": "link74"
         },
         {
             "source": "IF12",
-            "target": "RST4"
+            "target": "RST4",
+            "linkName": "link75"
         },
         {
             "source": "RST4",
-            "target": "!B2"
+            "target": "!B2",
+            "linkName": "link76"
         },
         {
             "source": "?B8",
-            "target": "IF13"
+            "target": "IF13",
+            "linkName": "link77"
         },
         {
             "source": "IF13",
-            "target": "EMIT7"
+            "target": "EMIT7",
+            "linkName": "link78"
         },
         {
             "source": "EMIT7",
-            "target": "!B2"
+            "target": "!B2",
+            "linkName": "link79"
         },
         {
             "source": "IF13",
-            "target": "TP2"
+            "target": "TP2",
+            "linkName": "link80"
         },
         {
             "source": "3s2",
-            "target": "TP2"
+            "target": "TP2",
+            "linkName": "link81"
         },
         {
             "source": "TP2",
-            "target": "mB4"
+            "target": "mB4",
+            "linkName": "link82"
         },
         {
             "source": "?B7",
-            "target": "AND4"
+            "target": "AND4",
+            "linkName": "link83"
         },
         {
             "source": "mB4",
-            "target": "AND4"
+            "target": "AND4",
+            "linkName": "link84"
         },
         {
             "source": "AND4",
-            "target": "IF14"
+            "target": "IF14",
+            "linkName": "link85"
         },
         {
             "source": "IF14",
-            "target": "RST5"
+            "target": "RST5",
+            "linkName": "link86"
         },
         {
             "source": "RST5",
-            "target": "!B2"
+            "target": "!B2",
+            "linkName": "link87"
         },
         {
             "source": "IF14",
-            "target": "TP3"
+            "target": "TP3",
+            "linkName": "link88"
         },
         {
             "source": "5s1",
-            "target": "TP3"
+            "target": "TP3",
+            "linkName": "link89"
         },
         {
             "source": "TP3",
-            "target": "mB4"
+            "target": "mB4",
+            "linkName": "link90"
         },
         {
             "source": "IF14",
-            "target": "N2"
+            "target": "N2",
+            "linkName": "link91"
         },
         {
             "source": "N2",
-            "target": "mB3"
+            "target": "mB3",
+            "linkName": "link92"
         },
         {
             "source": "?B9",
-            "target": "NOT9"
+            "target": "NOT9",
+            "linkName": "link93"
         },
         {
             "source": "NOT9",
-            "target": "IF15"
+            "target": "IF15",
+            "linkName": "link94"
         },
         {
             "source": "IF15",
-            "target": "RST3"
+            "target": "RST3",
+            "linkName": "link95"
         },
         {
             "source": "?B9",
-            "target": "IF16"
+            "target": "IF16",
+            "linkName": "link96"
         },
         {
             "source": "IF16",
-            "target": "RST2"
+            "target": "RST2",
+            "linkName": "link97"
         },
         {
             "source": "IF16",
-            "target": "EMIT4"
+            "target": "EMIT4",
+            "linkName": "link98"
         }
     ]
 }

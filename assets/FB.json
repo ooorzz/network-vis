@@ -1,0 +1,511 @@
+{
+    "nodes": [
+        {
+            "id": "?B1",
+            "title": "?B1",
+            "group": 1
+        },
+        {
+            "id": "?B2",
+            "title": "?B2",
+            "group": 1
+        },
+        {
+            "id": "?B3",
+            "title": "?B3",
+            "group": 1
+        },
+        {
+            "id": "?B4",
+            "title": "?B4",
+            "group": 1
+        },
+        {
+            "id": "?B5",
+            "title": "?B5",
+            "group": 1
+        },
+        {
+            "id": "?B6",
+            "title": "?B6",
+            "group": 1
+        },
+        {
+            "id": "?B7",
+            "title": "?B7",
+            "group": 1
+        },
+        {
+            "id": "!B1",
+            "title": "!B1",
+            "group": 2
+        },
+        {
+            "id": "!B2",
+            "title": "!B2",
+            "group": 2
+        },
+        {
+            "id": "!B3",
+            "title": "!B3",
+            "group": 2
+        },
+        {
+            "id": "!B4",
+            "title": "!B4",
+            "group": 2
+        },
+        {
+            "id": "!B5",
+            "title": "!B5",
+            "group": 2
+        },
+        {
+            "id": "!B6",
+            "title": "!B6",
+            "group": 2
+        },
+        {
+            "id": "mB1",
+            "title": "△B1",
+            "group": 1
+        },
+        {
+            "id": "mB2",
+            "title": "△B2",
+            "group": 2
+        },
+        {
+            "id": "mB3",
+            "title": "△B3",
+            "group": 2
+        },
+        {
+            "id": "mB4",
+            "title": "△B4",
+            "group": 2
+        },
+        {
+            "id": "IF5",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "RST1",
+            "title": "RST",
+            "group": 3
+        },
+        {
+            "id": "IF6",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "RST2",
+            "title": "RST",
+            "group": 3
+        },
+        {
+            "id": "EMIT4",
+            "title": "EMIT",
+            "group": 3
+        },
+        {
+            "id": "IF7",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "RST3",
+            "title": "RST",
+            "group": 3
+        },
+        {
+            "id": "NOT6",
+            "title": "NOT",
+            "group": 3
+        },
+        {
+            "id": "IF8",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "IF9",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "EMIT5",
+            "title": "EMIT",
+            "group": 3
+        },
+        {
+            "id": "N1",
+            "title": "N",
+            "group": 3
+        },
+        {
+            "id": "IF10",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "EMIT6",
+            "title": "EMIT",
+            "group": 3
+        },
+        {
+            "id": "NOT7",
+            "title": "NOT",
+            "group": 3
+        },
+        {
+            "id": "AND2",
+            "title": "AND",
+            "group": 3
+        },
+        {
+            "id": "IF11",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "TP1",
+            "title": "TP",
+            "group": 3
+        },
+        {
+            "id": "3s1",
+            "title": "3s",
+            "group": 5
+        },
+        {
+            "id": "NOT8",
+            "title": "NOT",
+            "group": 3
+        },
+        {
+            "id": "AND3",
+            "title": "AND",
+            "group": 3
+        },
+        {
+            "id": "IF12",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "RST4",
+            "title": "RST",
+            "group": 3
+        },
+        {
+            "id": "IF13",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "TP2",
+            "title": "TP",
+            "group": 3
+        },
+        {
+            "id": "3s2",
+            "title": "3s",
+            "group": 5
+        },
+        {
+            "id": "EMIT7",
+            "title": "EMIT",
+            "group": 3
+        },
+        {
+            "id": "AND4",
+            "title": "AND",
+            "group": 3
+        },
+        {
+            "id": "IF14",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "RST5",
+            "title": "RST",
+            "group": 3
+        },
+        {
+            "id": "TP3",
+            "title": "TP",
+            "group": 3
+        },
+        {
+            "id": "5s1",
+            "title": "5s",
+            "group": 5
+        },
+        {
+            "id": "N2",
+            "title": "N",
+            "group": 3
+        },
+        {
+            "id": "NOT9",
+            "title": "NOT",
+            "group": 3
+        },
+        {
+            "id": "IF15",
+            "title": "IF",
+            "group": 3
+        },
+        {
+            "id": "IF16",
+            "title": "IF",
+            "group": 3
+        }
+    ],
+    "links": [
+        {
+            "source": "?B1",
+            "target": "IF5"
+        },
+        {
+            "source": "IF5",
+            "target": "RST1"
+        },
+        {
+            "source": "RST1",
+            "target": "!B2"
+        },
+        {
+            "source": "RST1",
+            "target": "!B3"
+        },
+        {
+            "source": "RST1",
+            "target": "!B4"
+        },
+        {
+            "source": "RST1",
+            "target": "!B5"
+        },
+        {
+            "source": "RST1",
+            "target": "mB2"
+        },
+        {
+            "source": "mB1",
+            "target": "IF6"
+        },
+        {
+            "source": "IF6",
+            "target": "RST2"
+        },
+        {
+            "source": "RST2",
+            "target": "!B1"
+        },
+        {
+            "source": "IF6",
+            "target": "EMIT4"
+        },
+        {
+            "source": "EMIT4",
+            "target": "!B6"
+        },
+        {
+            "source": "?B2",
+            "target": "IF7"
+        },
+        {
+            "source": "IF7",
+            "target": "RST3"
+        },
+        {
+            "source": "RST3",
+            "target": "!B6"
+        },
+        {
+            "source": "?B3",
+            "target": "NOT6"
+        },
+        {
+            "source": "NOT6",
+            "target": "IF8"
+        },
+        {
+            "source": "IF8",
+            "target": "N1"
+        },
+        {
+            "source": "N1",
+            "target": "!B5"
+        },
+        {
+            "source": "?B3",
+            "target": "IF9"
+        },
+        {
+            "source": "IF9",
+            "target": "EMIT5"
+        },
+        {
+            "source": "EMIT5",
+            "target": "!B1"
+        },
+        {
+            "source": "?B4",
+            "target": "IF10"
+        },
+        {
+            "source": "IF10",
+            "target": "EMIT6"
+        },
+        {
+            "source": "EMIT6",
+            "target": "!B2"
+        },
+        {
+            "source": "?B5",
+            "target": "NOT7"
+        },
+        {
+            "source": "NOT7",
+            "target": "AND2"
+        },
+        {
+            "source": "?B6",
+            "target": "AND2"
+        },
+        {
+            "source": "AND2",
+            "target": "IF11"
+        },
+        {
+            "source": "IF11",
+            "target": "TP1"
+        },
+        {
+            "source": "3s1",
+            "target": "TP1"
+        },
+        {
+            "source": "TP1",
+            "target": "mB4"
+        },
+        {
+            "source": "?B6",
+            "target": "NOT8"
+        },
+        {
+            "source": "NOT7",
+            "target": "AND3"
+        },
+        {
+            "source": "NOT8",
+            "target": "AND3"
+        },
+        {
+            "source": "AND3",
+            "target": "IF12"
+        },
+        {
+            "source": "IF12",
+            "target": "RST4"
+        },
+        {
+            "source": "RST4",
+            "target": "!B2"
+        },
+        {
+            "source": "?B6",
+            "target": "IF13"
+        },
+        {
+            "source": "IF13",
+            "target": "EMIT7"
+        },
+        {
+            "source": "EMIT7",
+            "target": "!B2"
+        },
+        {
+            "source": "IF13",
+            "target": "TP2"
+        },
+        {
+            "source": "3s2",
+            "target": "TP2"
+        },
+        {
+            "source": "TP2",
+            "target": "mB4"
+        },
+        {
+            "source": "?B5",
+            "target": "AND4"
+        },
+        {
+            "source": "mB4",
+            "target": "AND4"
+        },
+        {
+            "source": "AND4",
+            "target": "IF14"
+        },
+        {
+            "source": "IF14",
+            "target": "RST5"
+        },
+        {
+            "source": "RST5",
+            "target": "!B2"
+        },
+        {
+            "source": "IF14",
+            "target": "TP3"
+        },
+        {
+            "source": "5s1",
+            "target": "TP3"
+        },
+        {
+            "source": "TP3",
+            "target": "mB4"
+        },
+        {
+            "source": "IF14",
+            "target": "N2"
+        },
+        {
+            "source": "N2",
+            "target": "mB3"
+        },
+        {
+            "source": "?B7",
+            "target": "NOT9"
+        },
+        {
+            "source": "NOT9",
+            "target": "IF15"
+        },
+        {
+            "source": "IF15",
+            "target": "RST3"
+        },
+        {
+            "source": "?B7",
+            "target": "IF16"
+        },
+        {
+            "source": "IF16",
+            "target": "RST2"
+        },
+        {
+            "source": "IF16",
+            "target": "EMIT4"
+        }
+    ]
+}
